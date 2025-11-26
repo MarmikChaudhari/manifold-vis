@@ -218,8 +218,8 @@ def analyze_manifold_tsne(n_particles: int = 100, n_dimensions: int = 6, n_steps
 
 
 if __name__ == "__main__":
-    # analyze_manifold_pca(n_particles=100, n_dimensions=5, n_steps=100000, zone_width=5.0, topology='circle')
+    analyze_manifold_pca(n_particles=100, n_dimensions=3, n_steps=100000, zone_width=5.0, topology='circle')
 
-    # analyze_manifold_umap(n_particles=100, n_dimensions=5, n_steps=100000, zone_width=5.0, topology='circle')
+    analyze_manifold_umap(n_particles=100, n_dimensions=3, n_steps=100000, zone_width=5.0, topology='circle')
 
-    analyze_manifold_tsne(n_particles=100, n_dimensions=5, n_steps=100000, zone_width=5.0, topology='circle')
+    analyze_manifold_tsne(n_particles=100, n_dimensions=3, n_steps=100000, zone_width=5.0, topology='circle')
